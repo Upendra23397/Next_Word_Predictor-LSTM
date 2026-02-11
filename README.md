@@ -47,8 +47,8 @@ Dense Layer (Softmax) → Predicts probability of next word
 Word_Predictor/
 │
 ├── app.py
-├── model.h5
-├── tokenizer.pkl
+├── word_predictor_model.h5
+├── tokenizer.pickle
 ├── requirements.txt
 └── README.md
 
@@ -110,12 +110,12 @@ Optimizer: Adam
 Loss Function: Categorical Crossentropy
 
 📦 Model Saving
-model.save("model.h5")
+model.save("word_predictor_model.h5")
 
 
 Tokenizer saved using:
 
-pickle.dump(tokenizer, open("tokenizer.pkl", "wb"))
+pickle.dump(tokenizer, open("tokenizer.pickle", "wb"))
 
 🔮 Future Improvements
 
@@ -138,6 +138,8 @@ TensorFlow / Keras
 NumPy
 
 Streamlit
+
+Environment:nextwordllstm
 
 👨‍💻 Author
 
