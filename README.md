@@ -43,7 +43,9 @@ Second LSTM Layer → Learns deeper contextual representation
 
 Dense Layer (Softmax) → Predicts probability of next word
 
-📂 Project Structure
+## 📂 Project Structure
+
+```
 Word_Predictor/
 │
 ├── app.py
@@ -51,6 +53,8 @@ Word_Predictor/
 ├── tokenizer.pickle
 ├── requirements.txt
 └── README.md
+```
+
 
 ⚙️ Installation & Setup
 1️⃣ Create Conda Environment
