@@ -12,7 +12,7 @@ Stacked LSTM Layers
 
 Dense Softmax Output Layer
 
-The model is trained on text corpus data and deployed as a Streamlit web application.
+The model is trained on kaggle  data and deployed as a Streamlit web application.
 
 🚀 Features
 
@@ -27,7 +27,7 @@ Reverse word mapping for readable output
 Simple and interactive UI using Streamlit
 
 🏗 Model Architecture
-Input(shape=(324,))
+Input(shape=(324,)) # 
 Embedding(input_dim=4994, output_dim=200)
 LSTM(150, return_sequences=True)
 LSTM(100)
@@ -35,7 +35,7 @@ Dense(4994, activation='softmax')
 
 Architecture Explanation
 
-Embedding Layer → Converts word indices into dense vectors
+Embedding Layer → Converts word indices into dense vectors--->each words have 200 dim 
 
 First LSTM Layer → Captures sequential dependencies
 
